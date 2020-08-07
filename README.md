@@ -3,8 +3,8 @@
 This is the home for any projects I decide to create associated with my tutorials.  See [gamedevbill.com](https://gamedevbill.com) for all the tutorials, and [follow me on twitter](https://twitter.com/gamedevbill) to stay up to date!
 
 
-## Normal Calculation
-Project with the results from [How to Calculate Shader Graph Normals](https://gamedevbill.com/shader-graph-normal-calculation/).  This sample includes two top level shader graphs: FullNormalCorrection & SubGraphNormalCorrection.  Each accomplishes the same normal calculation.  One as a flat top-level graph, one using sub-graph helpers.  
+## Normal Calculation & Normal Calc URP
+Projects with the results from [How to Calculate Shader Graph Normals](https://gamedevbill.com/shader-graph-normal-calculation/).  "NormalCaculation" is done in HDRP, and "NormalCalc_URP" is in URP.  These samples include two top level shader graphs: FullNormalCorrection & SubGraphNormalCorrection.  Each accomplishes the same normal calculation.  One as a flat top-level graph, one using sub-graph helpers.  
 
 Important contents are all in /Assets/NormalCalculation/:
 * SimpleDeform - the actual vertex displacement subgraph used for example purposes
