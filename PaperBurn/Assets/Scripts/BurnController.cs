@@ -9,6 +9,7 @@ public class BurnController : MonoBehaviour
     private bool m_active = false;
     private float m_percent = 0.0f;
     public float TimeScale = 1;
+    private int m_counter = 100;
 	
 	public Vector2 NoiseData;
 	public Vector2 NoiseScaling;
@@ -61,10 +62,12 @@ public class BurnController : MonoBehaviour
         });
     }
 
-	void Update() 
+	void Update()
 	{
-		if (Input.GetKeyDown("space"))
+		m_counter++;
+		if(!m_active && m_counter > 100)
 		{
+			m_counter = 0;
 			m_active = true;
 			m_percent = 0;
 
