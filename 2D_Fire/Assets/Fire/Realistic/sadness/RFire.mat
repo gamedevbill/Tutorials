@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RFire
+  m_Shader: {fileID: -6465566751694194690, guid: 51e53c5b1073b1747b2f137866207182, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 264bd0c61561f884cba931783c682a3d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_D189774D_Texture_1:
+        m_Texture: {fileID: 2800000, guid: fe07f9fdcbad95345978bfb32a287513, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_4E3C8E74: 0.5
+    - Vector1_5CD036C7: 1
+    m_Colors:
+    - Color_882A8F60: {r: 7.999999, g: 6.8272243, b: 0.29319367, a: 0}
+    - Vector4_ECCE1D9F: {r: 12, g: 4, b: 21, a: 12}
+    - Vector4_F57B5BD2: {r: 1, g: -0.16, b: 0.59, a: 0.8}
+  m_BuildTextureStacks: []
