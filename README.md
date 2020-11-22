@@ -33,3 +33,6 @@ Based on the [HSV in Shader Graph](https://gamedevbill.com/) tutorial (Hue-Satur
 
 * rgb2hsv - subgraph node to convert from RGB to HSV color space
 * hsv2rgb - subgraph node to convert from HSV to RGB color space
+
+## 2D Fire
+Based on the [Top Fire Shaders](https://youtu.be/8sJQvFA6GEI) tutorial.
